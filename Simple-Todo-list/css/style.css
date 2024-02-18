@@ -1,0 +1,57 @@
+body{
+    margin : 0px;
+    padding: 0px;
+    background-color: skyblue;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#app{
+ background-color: white;
+ border-radius: 10px;
+ padding: 10px 20px;
+ margin: 20px;
+}
+
+.app h2{
+    display: grid;
+    justify-content: center;
+    margin: 15px 80px;
+}
+.how{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: bold;
+}
+
+.form input{
+margin-top: 10px;
+border-radius: 10px;
+width: 300px;
+padding: 10px 10px;
+font-size: 15px;
+
+}
+
+#button{
+display: flex;
+justify-content: center;
+margin-top: 10px;
+width: 322px;
+margin-bottom: 10px;
+border-radius: 10px;
+border: none;
+background-color: skyblue;
+padding: 10px 0px;
+text-transform: uppercase;
+cursor: pointer;
+font-family: 'Courier New', Courier, monospace;
+
+}
+
+#button:hover{
+    border: 2px solid black;
+}
